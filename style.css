@@ -1,0 +1,65 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+}
+
+ul
+{
+    list-style-image: url(images/plusSign.png);
+    line-height: 25px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+thead 
+{
+    color: white;
+    background-color: rgb(122, 165, 221);
+}
+
+thead th
+{
+    padding: 5px 0px 10px 0px;
+    border: 2px solid rgb(86, 138, 207);
+    border-bottom: 4px solid rgb(86, 138, 207);
+    text-shadow: -2px -2px grey;
+}
+
+tbody
+{
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+tbody th
+{
+    padding: 20px 40px 20px 10px;
+    text-align: left;
+    border: 2px solid rgb(86, 138, 207, 0.4);
+}
+
+tbody tr
+{
+    background-color: rgb(86, 138, 207, 0.3);
+}
+
+tbody tr.even
+{
+    background-color: rgb(86, 138, 207, 0.2);
+}
+
+tbody td
+{
+    padding: 10px 50px 10px 10px;
+    line-height: 20px;
+    border: 2px solid rgb(86, 138, 207, 0.4);
+}
+
+.time
+{
+    font-weight: bold;
+}
