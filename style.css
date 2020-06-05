@@ -63,3 +63,9 @@ tbody td
 {
     font-weight: bold;
 }
+
+.ankieta
+{
+    float: left;
+    width: 200px;
+}
