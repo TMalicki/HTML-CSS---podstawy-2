@@ -2,6 +2,7 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(102, 102, 102);
+    background-color: rgba(182, 181, 181, 0.2);
 }
 
 ul
@@ -64,8 +65,43 @@ tbody td
     font-weight: bold;
 }
 
+fieldset
+{
+    background-color: white;
+    width: 400px;
+    border: solid 2px rgb(155, 155, 155);
+}
+
 .ankieta
 {
     float: left;
     width: 200px;
+}
+
+legend
+{
+    font-style: italic;
+}
+
+.accept
+{
+    margin-top: 10px;
+    margin-left: 320px;
+    padding: 6px 10px 6px 10px;
+    border-radius: 8px;
+    border: solid 1px rgb(155, 155, 155);
+    background-color: green;
+    color: white;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus
+{
+    background-color: rgb(218, 216, 216);
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover
+{
+    background-color: rgb(214, 189, 189);
 }
